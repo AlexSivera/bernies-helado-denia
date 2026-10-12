@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "bernies", "runtimeExecutable": "node", "runtimeArgs": ["scripts/serve.mjs", "4327"], "port": 4327 }
+  ]
+}

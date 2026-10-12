@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bernie's · Helado artesano en Marqués de Campo, Dénia</title>
+  <meta name="description" content="Heladería artesana con elaboración propia en C/ Marqués de Campo 51, Dénia. Sabores que cambian con la temporada, bubble waffles, batidos, granizados y horchata.">
+  <link rel="canonical" href="{{SITE_URL}}">
+  <meta name="theme-color" content="#FFC61A">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Bernie's · Helado artesano, hecho aquí">
+  <meta property="og:description" content="Heladería artesana en Marqués de Campo 51, Dénia. Elaboración propia y bubble waffles.">
+  <meta property="og:url" content="{{SITE_URL}}">
+  <meta property="og:image" content="{{SITE_URL}}assets/img/og-1200.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "IceCreamShop",
+    "name": "Bernie's helado artesano",
+    "alternateName": "Bernie's Happy Ice Cream",
+    "url": "{{SITE_URL}}",
+    "image": "{{SITE_URL}}assets/img/og-1200.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C/ del Marqués de Campo, 51",
+      "postalCode": "03700",
+      "addressLocality": "Dénia",
+      "addressRegion": "Alicante",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 38.8415147, "longitude": 0.1119928 },
+    "hasMap": "https://www.google.com/maps?cid=16839739642171214478",
+    "servesCuisine": ["Helado artesano", "Gofres", "Batidos", "Granizados", "Horchata"],
+    "sameAs": ["https://www.instagram.com/bernies_happy_icecream/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#vitrina">Saltar al contenido</a>
+
+  <header class="top" data-top>
+    <a class="top__mark" href="#inicio" aria-label="Bernie's, inicio">Bernie's</a>
+    <nav class="top__nav" aria-label="Principal">
+      <a href="#vitrina">Sabores</a>
+      <a href="#gofre">Bubble waffle</a>
+      <a href="#pizarra">Pizarra</a>
+      <a href="#casa">La casa</a>
+    </nav>
+    <a class="btn btn--ink btn--sm top__cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bernie%27s%20helado%20artesano%2C%20C%2F%20del%20Marqu%C3%A9s%20de%20Campo%2051%2C%20D%C3%A9nia" target="_blank" rel="noopener">Cómo llegar</a>
+    <button class="top__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Menú</button>
+  </header>
+
+  <div class="menu" id="menu" hidden data-menu>
+    <button class="menu__close" type="button" data-menu-close>Cerrar</button>
+    <nav aria-label="Menú móvil">
+      <a href="#vitrina">Sabores</a>
+      <a href="#gofre">Bubble waffle</a>
+      <a href="#pizarra">Pizarra</a>
+      <a href="#casa">La casa</a>
+      <a href="#visita">Visítanos</a>
+    </nav>
+    <p class="menu__addr">C/ Marqués de Campo, 51 · Dénia</p>
+  </div>
+
+  <main>
+    <!-- ───────── HERO ───────── -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <figure class="arch hero__arch">
+          <img data-img="hero-cono" sizes="(min-width: 960px) 40vw, 86vw" alt="Cucurucho con dos bolas de helado rosa y nata sujeto en alto sobre fondo amarillo" fetchpriority="high" loading="eager">
+        </figure>
+        <p class="seal" aria-label="Valoración en Google: 4,5 sobre 5 con 246 reseñas">
+          <span class="seal__n">4,5</span>
+          <span class="seal__t">★ en Google<br>246 reseñas</span>
+        </p>
+      </div>
+      <div class="hero__copy">
+        <p class="eyebrow">Heladería artesana · Dénia</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line">Helado</span>
+          <span class="line">artesano,</span>
+          <span class="line">hecho <em>aquí.</em></span>
+        </h1>
+        <p class="hero__lead">En Marqués de Campo, 51. Elaboración propia, sabores que cambian con la temporada y un bubble waffle del que no paran de hablar las reseñas.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--ink" href="#vitrina">Ver la vitrina</a>
+          <a class="btn btn--line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bernie%27s%20helado%20artesano%2C%20C%2F%20del%20Marqu%C3%A9s%20de%20Campo%2051%2C%20D%C3%A9nia" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>Pistacho</span><span>Leche merengada</span><span>Happy Hippo</span><span>Cheesecake de arándanos y Lotus</span><span>Coco y maracuyá</span><span>Dulce de leche</span><span>Dubai</span><span>Mango</span><span>Frutos rojos</span><span>Mojito</span><span>Unicornio</span><span>Yogur con amarena</span><span>Vainilla Taití</span><span>Chocolate negro</span>
+          <span>Pistacho</span><span>Leche merengada</span><span>Happy Hippo</span><span>Cheesecake de arándanos y Lotus</span><span>Coco y maracuyá</span><span>Dulce de leche</span><span>Dubai</span><span>Mango</span><span>Frutos rojos</span><span>Mojito</span><span>Unicornio</span><span>Yogur con amarena</span><span>Vainilla Taití</span><span>Chocolate negro</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── LA VITRINA ───────── -->
+    <section class="vitrina" id="vitrina" aria-labelledby="vitrina-title">
+      <header class="vitrina__head">
+        <p class="eyebrow">01 · La vitrina</p>
+        <h2 class="h2" id="vitrina-title">Elige con los ojos.<br><em>Luego, pide probar.</em></h2>
+        <p class="vitrina__intro">Texturas de verdad, recortadas de fotos de nuestra vitrina. Los sabores rotan con la temporada: estos son algunos de los que han pasado por aquí. Toca dos y monta tu combinación.</p>
+      </header>
+
+      <div class="vitrina__body">
+        <div class="vitrina__picker">
+          <div class="filters" role="group" aria-label="Filtrar sabores">
+            <button type="button" class="chip is-on" data-filter="todos" aria-pressed="true">Todos</button>
+            <button type="button" class="chip" data-filter="cremoso" aria-pressed="false">Cremosos</button>
+            <button type="button" class="chip" data-filter="frutal" aria-pressed="false">Frutales</button>
+            <button type="button" class="chip" data-filter="sg" aria-pressed="false">Sin gluten*</button>
+          </div>
+
+          <ul class="flavors" data-flavors>
+            <li><button type="button" class="flavor" data-id="pistacho" data-tags="cremoso sg" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-pistacho-160.webp" srcset="assets/img/sabor-pistacho-160.webp 160w, assets/img/sabor-pistacho-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">01</span><span class="flavor__name">Pistacho</span><span class="flavor__tag">Sin gluten</span></button></li>
+            <li><button type="button" class="flavor" data-id="leche-merengada" data-tags="cremoso sg" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-leche-merengada-160.webp" srcset="assets/img/sabor-leche-merengada-160.webp 160w, assets/img/sabor-leche-merengada-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">02</span><span class="flavor__name">Leche merengada</span><span class="flavor__tag">Sin gluten</span></button></li>
+            <li><button type="button" class="flavor" data-id="happy-hippo" data-tags="cremoso" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-happy-hippo-160.webp" srcset="assets/img/sabor-happy-hippo-160.webp 160w, assets/img/sabor-happy-hippo-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">03</span><span class="flavor__name">Happy Hippo</span></button></li>
+            <li><button type="button" class="flavor" data-id="cheesecake" data-tags="cremoso" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-cheesecake-160.webp" srcset="assets/img/sabor-cheesecake-160.webp 160w, assets/img/sabor-cheesecake-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">04</span><span class="flavor__name">Cheesecake de arándanos y&nbsp;Lotus</span></button></li>
+            <li><button type="button" class="flavor" data-id="coco-maracuya" data-tags="frutal sg" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-coco-maracuya-160.webp" srcset="assets/img/sabor-coco-maracuya-160.webp 160w, assets/img/sabor-coco-maracuya-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">05</span><span class="flavor__name">Coco y maracuyá</span><span class="flavor__tag">Sin gluten</span></button></li>
+            <li><button type="button" class="flavor" data-id="dulce-de-leche" data-tags="cremoso sg" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-dulce-de-leche-160.webp" srcset="assets/img/sabor-dulce-de-leche-160.webp 160w, assets/img/sabor-dulce-de-leche-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">06</span><span class="flavor__name">Dulce de leche</span><span class="flavor__tag">Sin gluten</span></button></li>
+            <li><button type="button" class="flavor" data-id="ferrero" data-tags="cremoso" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-ferrero-160.webp" srcset="assets/img/sabor-ferrero-160.webp 160w, assets/img/sabor-ferrero-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">07</span><span class="flavor__name">Ferrero</span></button></li>
+            <li><button type="button" class="flavor" data-id="fresa" data-tags="frutal sg" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-fresa-160.webp" srcset="assets/img/sabor-fresa-160.webp 160w, assets/img/sabor-fresa-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">08</span><span class="flavor__name">Fresa</span><span class="flavor__tag">Sin gluten</span></button></li>
+            <li><button type="button" class="flavor" data-id="mango" data-tags="frutal sg" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-mango-160.webp" srcset="assets/img/sabor-mango-160.webp 160w, assets/img/sabor-mango-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">09</span><span class="flavor__name">Mango</span><span class="flavor__tag">Sin gluten · vegano</span></button></li>
+            <li><button type="button" class="flavor" data-id="vainilla" data-tags="cremoso" aria-pressed="false"><span class="flavor__scoop"><img src="assets/img/sabor-vainilla-160.webp" srcset="assets/img/sabor-vainilla-160.webp 160w, assets/img/sabor-vainilla-320.webp 320w" sizes="150px" width="320" height="320" alt="" loading="lazy" decoding="async"></span><span class="flavor__n">10</span><span class="flavor__name">Vainilla Taití</span></button></li>
+          </ul>
+        </div>
+
+        <aside class="builder" id="combinacion" aria-labelledby="builder-title" data-builder>
+          <div class="builder__card">
+            <p class="builder__kicker" id="builder-title">Tu combinación</p>
+            <div class="formats" role="radiogroup" aria-label="Formato">
+              <button type="button" class="fmt is-on" role="radio" aria-checked="true" data-format="cucurucho">Cucurucho</button>
+              <button type="button" class="fmt" role="radio" aria-checked="false" data-format="tarrina">Tarrina</button>
+              <button type="button" class="fmt" role="radio" aria-checked="false" data-format="waffle">Bubble waffle</button>
+            </div>
+
+            <div class="stage" data-stage>
+              <svg class="stage__svg" viewBox="0 0 300 380" role="img" aria-labelledby="stage-desc">
+                <desc id="stage-desc" data-stage-desc>Un cucurucho vacío esperando dos bolas.</desc>
+                <defs>
+                  <pattern id="waffle-grid" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                    <rect width="18" height="18" fill="#D99A4E"/>
+                    <path d="M0 0H18M0 0V18" stroke="#B8732D" stroke-width="3.5"/>
+                  </pattern>
+                  <pattern id="bubbles" width="34" height="30" patternUnits="userSpaceOnUse">
+                    <rect width="34" height="30" fill="#C98232"/>
+                    <circle cx="9" cy="8" r="7.5" fill="#E7A957"/><circle cx="26" cy="8" r="7.5" fill="#E2A04D"/>
+                    <circle cx="17.5" cy="22" r="7.5" fill="#E9AF5E"/><circle cx="0.5" cy="22" r="7.5" fill="#DD9C4B"/><circle cx="34.5" cy="22" r="7.5" fill="#DD9C4B"/>
+                  </pattern>
+                  <clipPath id="scoop-shape" clipPathUnits="objectBoundingBox">
+                    <path d="M.5 0C.8 0 1 .24 1 .52C1 .64 .97 .72 .93 .8C.88 .82 .86 .9 .8 .88C.74 .86 .7 .96 .63 .92C.56 .89 .52 .98 .45 .93C.39 .9 .34 .97 .28 .91C.22 .87 .16 .92 .12 .84C.07 .8 .04 .75 .02 .68C0 .62 0 .57 0 .52C0 .24 .2 0 .5 0Z"/>
+                  </clipPath>
+                </defs>
+
+                <!-- Recipientes: parte trasera (detrás de las bolas) -->
+                <g class="vessel" data-vessel="cucurucho">
+                  <path d="M88 200 L150 368 L212 200 Z" fill="url(#waffle-grid)"/>
+                  <path d="M80 196 Q150 214 220 196 L216 212 Q150 230 84 212 Z" fill="#C47E36"/>
+                </g>
+                <g class="vessel" data-vessel="tarrina" hidden>
+                  <ellipse cx="150" cy="214" rx="82" ry="13" fill="#E5AD10" stroke="#221A14" stroke-width="3"/>
+                </g>
+                <g class="vessel" data-vessel="waffle" hidden>
+                  <path d="M40 232 C14 150 30 62 104 40 C134 31 166 31 196 40 C270 62 286 150 260 232 Z" fill="url(#bubbles)" stroke="#8A501B" stroke-width="3"/>
+                </g>
+
+                <!-- Bolas: se rellenan desde main.js -->
+                <g class="scoop" data-scoop="0" transform="translate(150 186)">
+                  <g class="scoop__in">
+                    <ellipse cx="0" cy="20" rx="64" ry="12" fill="#221A14" opacity=".14"/>
+                    <image x="-70" y="-62" width="140" height="124" clip-path="url(#scoop-shape)" preserveAspectRatio="xMidYMid slice" href=""/>
+                    <path d="M-38 -38 Q-22 -54 2 -54" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".45"/>
+                  </g>
+                </g>
+                <g class="scoop" data-scoop="1" transform="translate(150 96)">
+                  <g class="scoop__in">
+                    <ellipse cx="0" cy="22" rx="60" ry="11" fill="#221A14" opacity=".14"/>
+                    <image x="-66" y="-58" width="132" height="118" clip-path="url(#scoop-shape)" preserveAspectRatio="xMidYMid slice" href=""/>
+                    <path d="M-34 -34 Q-20 -50 2 -50" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".45"/>
+                  </g>
+                </g>
+
+                <!-- Recipientes: parte delantera (tapa la base de la bola) -->
+                <g class="vessel" data-vessel="tarrina" hidden>
+                  <path d="M68 216 L232 216 L214 354 Q150 366 86 354 Z" fill="#FFC61A" stroke="#221A14" stroke-width="3" stroke-linejoin="round"/>
+                  <path d="M64 208 Q150 232 236 208 L234 224 Q150 248 66 224 Z" fill="#FFD95C" stroke="#221A14" stroke-width="3" stroke-linejoin="round"/>
+                  <text x="150" y="298" text-anchor="middle" class="cup-mark">Bernie's</text>
+                  <text x="150" y="320" text-anchor="middle" class="cup-sub">HAPPY ICE CREAM</text>
+                </g>
+                <g class="vessel" data-vessel="waffle" hidden>
+                  <path d="M54 220 L150 374 L246 220 Q150 252 54 220 Z" fill="#E4CFAE" stroke="#A88A63" stroke-width="2.5" stroke-linejoin="round"/>
+                  <path d="M104 238 L150 330" stroke="#CDB28A" stroke-width="2"/>
+                  <g fill="#E2A04D" stroke="#9C5E22" stroke-width="2">
+                    <circle cx="70" cy="220" r="14"/><circle cx="97" cy="228" r="14"/><circle cx="124" cy="233" r="14"/><circle cx="150" cy="235" r="14"/><circle cx="176" cy="233" r="14"/><circle cx="203" cy="228" r="14"/><circle cx="230" cy="220" r="14"/>
+                  </g>
+                </g>
+              </svg>
+              <p class="stage__empty" data-stage-empty>Toca un sabor de la vitrina</p>
+            </div>
+
+            <p class="builder__summary" aria-live="polite" data-summary>Cucurucho · elige hasta dos sabores</p>
+            <div class="builder__actions">
+              <a class="btn btn--ink btn--sm" href="#" target="_blank" rel="noopener" data-share aria-disabled="true">Mandarlo por WhatsApp</a>
+              <button type="button" class="btn btn--line btn--sm" data-clear>Vaciar</button>
+            </div>
+            <p class="builder__fine">No es un pedido: es para llegar con la idea clara (o cambiar de opinión en el mostrador).</p>
+          </div>
+        </aside>
+      </div>
+
+      <div class="vitrina__foot">
+        <p class="vitrina__more"><strong>También han pasado por la vitrina:</strong> limón, frutos rojos, mojito, unicornio, yogur con amarena, chocolate negro, Dubai, Kinder Bueno y, en Navidad, manzana asada.</p>
+        <p class="vitrina__note">*Según las etiquetas de la vitrina. Si tienes una alergia o intolerancia, pregunta en el mostrador antes de pedir.</p>
+      </div>
+
+      <a class="tray" href="#combinacion" data-tray hidden>
+        <span class="tray__dots" data-tray-dots></span>
+        <span class="tray__txt" data-tray-txt>Tu combinación</span>
+        <span class="tray__go">Ver</span>
+      </a>
+    </section>
+
+    <!-- ───────── BUBBLE WAFFLE ───────── -->
+    <section class="gofre" id="gofre" aria-labelledby="gofre-title">
+      <div class="gofre__type">
+        <p class="eyebrow eyebrow--yolk">02 · La especialidad</p>
+        <h2 class="gofre__title" id="gofre-title"><span>Bubble</span> <span><em>waffle</em></span></h2>
+        <p class="gofre__stat"><span class="gofre__num">47</span> reseñas de Google hablan de nuestros gofres. Gofre de burbujas en cono de papel, con el helado dentro.</p>
+      </div>
+
+      <div class="gofre__photos">
+        <figure class="arch gofre__big">
+          <img data-img="gofre-mano" sizes="(min-width: 960px) 34vw, 78vw" alt="Bubble waffle de Bernie's con una bola de helado, sujeto en la mano">
+        </figure>
+        <figure class="gofre__small">
+          <img data-img="gofre-mostrador" sizes="(min-width: 960px) 20vw, 46vw" alt="Bubble waffle y cucuruchos de barquillo en el mostrador de Bernie's, con el neón al fondo">
+        </figure>
+      </div>
+
+      <ol class="steps">
+        <li><span class="steps__n">1</span><strong>El gofre</strong> de burbujas, en su cono de papel.</li>
+        <li><span class="steps__n">2</span><strong>Tu helado</strong> dentro, del sabor que elijas.</li>
+        <li><span class="steps__n">3</span><strong>Toppings y salsas</strong> por encima, todos los que quieras.</li>
+      </ol>
+
+      <div class="extras">
+        <div>
+          <h3 class="extras__h">Toppings</h3>
+          <p class="extras__list">Almendra caramelizada · Lotus · Galletas Osito · Mini nubes · Chips Ahoy · Ositos Haribo · Cereales · Nata montada · Fresa · Plátano</p>
+        </div>
+        <div>
+          <h3 class="extras__h">Salsas</h3>
+          <p class="extras__list">ChocoGofre · Chocolate blanco · Kinder Bueno · Oreo · Caramelo · Dulce de leche · Fresa · Mango · Leche condensada · Lotus</p>
+        </div>
+        <p class="extras__fine">De la pizarra del local. Algunos solo en temporada. ¿Más pequeño? Pregunta por el <strong>Waffle POP</strong> (gofre en palo, decorado) y el <strong>mini waffle</strong>.</p>
+      </div>
+    </section>
+
+    <!-- ───────── PIZARRA ───────── -->
+    <section class="pizarra" id="pizarra" aria-labelledby="pizarra-title">
+      <header class="pizarra__head">
+        <p class="eyebrow">03 · La pizarra</p>
+        <h2 class="h2" id="pizarra-title">Para beber,<br><em>y para quedarse un rato.</em></h2>
+      </header>
+
+      <div class="board">
+        <article class="board__group board__group--wide">
+          <h3 class="board__h">Summer shakes</h3>
+          <ul class="board__list">
+            <li><span class="board__dot" style="--c:#F5C93B"></span><span class="board__name">Tropical Sun</span><span class="board__desc">granizado de limón + helado de mango</span></li>
+            <li><span class="board__dot" style="--c:#BFD98B"></span><span class="board__name">Mojito Chill</span><span class="board__desc">granizado de limón + helado de mojito</span></li>
+            <li><span class="board__dot" style="--c:#F29BAE"></span><span class="board__name">Pink Mango</span><span class="board__desc">granizado de mango + helado de fresa</span></li>
+            <li><span class="board__dot" style="--c:#B4436A"></span><span class="board__name">Berry Island</span><span class="board__desc">granizado de mango + helado de frutos rojos</span></li>
+          </ul>
+        </article>
+        <article class="board__group">
+          <h3 class="board__h">Granizados</h3>
+          <ul class="board__list board__list--plain">
+            <li>Limón</li><li>Mango y maracuyá</li><li>Café</li><li>Blanco y negro</li><li><strong>Horchata</strong></li>
+          </ul>
+        </article>
+        <article class="board__group">
+          <h3 class="board__h">Batidos</h3>
+          <ul class="board__list board__list--plain">
+            <li>Batido de helado, con o sin nata</li>
+            <li><strong>Bernie's Milkshake</strong> — 2 toppings, 1 salsa y nata</li>
+          </ul>
+        </article>
+        <article class="board__group">
+          <h3 class="board__h">Affogato</h3>
+          <p class="board__p">Un café y una bola de helado. Lo demás lo pone la tarde.</p>
+        </article>
+        <article class="board__group">
+          <h3 class="board__h">Cafés</h3>
+          <ul class="board__list board__list--plain board__list--inline">
+            <li>Solo</li><li>Cortado</li><li>Americano</li><li>Con leche</li><li>Capuchino</li><li>Bombón</li><li>Infusiones</li>
+          </ul>
+        </article>
+      </div>
+      <p class="pizarra__fine">Los precios están en la pizarra del local y pueden cambiar con la temporada.</p>
+    </section>
+
+    <!-- ───────── PASEO ───────── -->
+    <section class="paseo" aria-label="Helado para pasear">
+      <figure class="paseo__fig">
+        <img data-img="paseo-mar" sizes="100vw" alt="Mano sujetando un cucurucho de helado frente al mar en un día de sol">
+      </figure>
+      <div class="paseo__txt">
+        <p class="paseo__big">Calle abajo,<br><em>hasta el puerto.</em></p>
+        <p class="paseo__small">Marqués de Campo, la calle peatonal de Dénia, termina en el puerto. El helado, por el camino.</p>
+      </div>
+    </section>
+
+    <!-- ───────── LA CASA ───────── -->
+    <section class="casa" id="casa" aria-labelledby="casa-title">
+      <div class="casa__neon" aria-hidden="true" data-neon>
+        <span class="neon">Bernie's</span>
+        <span class="neon-sub">Happy Ice Cream</span>
+      </div>
+
+      <div class="casa__grid">
+        <div class="casa__copy">
+          <p class="eyebrow eyebrow--yolk">04 · La casa</p>
+          <h2 class="h2 h2--light" id="casa-title">Una heladería pequeña<br><em>con el obrador dentro.</em></h2>
+          <p>El helado se elabora en el propio local, en Marqués de Campo. Por eso cambia la vitrina con la temporada y por eso, si dudas entre dos, te lo dejamos probar.</p>
+          <p>Detrás del mostrador: la pared pizarra, el neón amarillo, los toppings en fila y los cucuruchos esperando.</p>
+        </div>
+        <figure class="casa__photo">
+          <img data-img="interior" sizes="(min-width: 960px) 46vw, 92vw" alt="Interior de Bernie's: dos vitrinas de helado, pared pizarra con el neón amarillo de Bernie's y dispensadores de toppings">
+          <figcaption>El mostrador de Bernie's, en Marqués de Campo 51.</figcaption>
+        </figure>
+      </div>
+
+      <div class="quotes">
+        <h3 class="quotes__h">Lo que dicen en Google</h3>
+        <blockquote class="quote">
+          <p>«Son artesanales, hechos por la chica en el mismo establecimiento.»</p>
+          <footer>Eva F. · reseña en Google</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>«La textura es cremosa pero consistente, predomina el sabor elegido pero con un gusto auténtico a nata/leche de trasfondo.»</p>
+          <footer>Miguel A. · reseña en Google</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>«Gracias a sus consejos y a darme a probar sus helados he salido de allí […] con la alegría de haber encontrado una heladería a la que volver.»</p>
+          <footer>Inés G. · reseña en Google</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ───────── VISITA ───────── -->
+    <section class="visita" id="visita" aria-labelledby="visita-title">
+      <div class="visita__head">
+        <p class="eyebrow">05 · Visítanos</p>
+        <h2 class="visita__addr" id="visita-title">Marqués de Campo, <span class="visita__num">51</span></h2>
+        <p class="visita__city">03700 Dénia · Alicante</p>
+      </div>
+
+      <div class="visita__grid">
+        <figure class="arch visita__photo">
+          <img data-img="fachada" sizes="(min-width: 960px) 32vw, 80vw" alt="Fachada amarilla de Bernie's con el rótulo Heladería Artesanal y un cucurucho gigante pintado en la columna">
+        </figure>
+        <dl class="facts">
+          <div><dt>Cómo encontrarnos</dt><dd>Busca la fachada amarilla con el cucurucho gigante pintado en la columna.</dd></div>
+          <div><dt>Horario</dt><dd><span class="pending">Pendiente de confirmar con Bernie's</span></dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/bernies_happy_icecream/" target="_blank" rel="noopener">@bernies_happy_icecream</a></dd></div>
+          <div><dt>¿Ya has venido?</dt><dd><a href="https://www.google.com/maps?cid=16839739642171214478" target="_blank" rel="noopener">Cuéntalo en Google</a></dd></div>
+        </dl>
+        <div class="visita__ctas">
+          <a class="btn btn--ink" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bernie%27s%20helado%20artesano%2C%20C%2F%20del%20Marqu%C3%A9s%20de%20Campo%2051%2C%20D%C3%A9nia" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="btn btn--line" href="https://www.instagram.com/bernies_happy_icecream/" target="_blank" rel="noopener">Ver Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="foot__mark" aria-hidden="true">Bernie's</p>
+    <div class="foot__row">
+      <p>Bernie's helado artesano<br>C/ del Marqués de Campo, 51 · 03700 Dénia</p>
+      <p class="foot__demo">Propuesta de diseño (demo no oficial). Fotos de ambiente provisionales de Unsplash; fotos del local tomadas de su ficha pública de Google Maps.</p>
+    </div>
+  </footer>
+
+  <a class="float-cta btn btn--ink" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bernie%27s%20helado%20artesano%2C%20C%2F%20del%20Marqu%C3%A9s%20de%20Campo%2051%2C%20D%C3%A9nia" target="_blank" rel="noopener" data-float>Cómo llegar</a>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

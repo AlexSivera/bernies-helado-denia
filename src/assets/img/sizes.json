@@ -1,0 +1,121 @@
+{
+  "hero-cono": {
+    "ratio": 0.7692307692307692,
+    "widths": [
+      480,
+      760,
+      1100,
+      1500
+    ]
+  },
+  "paseo-mar": {
+    "ratio": 1.7777777777777777,
+    "widths": [
+      800,
+      1400,
+      2000
+    ]
+  },
+  "fachada": {
+    "ratio": 0.8,
+    "widths": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "interior": {
+    "ratio": 1.3333333333333333,
+    "widths": [
+      600,
+      1000,
+      1600
+    ]
+  },
+  "gofre-mano": {
+    "ratio": 0.8,
+    "widths": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "gofre-mostrador": {
+    "ratio": 0.8,
+    "widths": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "sabor-pistacho": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-leche-merengada": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-happy-hippo": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-cheesecake": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-coco-maracuya": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-dulce-de-leche": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-ferrero": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-fresa": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-mango": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  },
+  "sabor-vainilla": {
+    "ratio": 1,
+    "widths": [
+      160,
+      320
+    ]
+  }
+}
