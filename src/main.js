@@ -97,7 +97,8 @@ const share = $('[data-share]');
 const desc = $('[data-stage-desc]');
 const tray = $('[data-tray]');
 const lower = (s) => s.charAt(0).toLowerCase() + s.slice(1);
-const listado = (names) => names.length === 2 ? `${names[0]} y ${lower(names[1])}` : names[0];
+const listado = (names) => names.length < 2 ? names[0]
+  : `${names[0]}${names.some((n) => / y /.test(n)) ? ' + ' : ' y '}${lower(names[1])}`;
 
 function drop(g) {
   g.classList.remove('is-on');
