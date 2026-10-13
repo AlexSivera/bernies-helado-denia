@@ -47,74 +47,74 @@
       1200
     ]
   },
-  "sabor-pistacho": {
-    "ratio": 1,
+  "scoop-fresa": {
+    "ratio": 2.2511,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-leche-merengada": {
-    "ratio": 1,
+  "scoop-pistacho": {
+    "ratio": 2.0094,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-happy-hippo": {
-    "ratio": 1,
+  "scoop-mango": {
+    "ratio": 2.308,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-cheesecake": {
-    "ratio": 1,
+  "scoop-yogur": {
+    "ratio": 1.4961,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-coco-maracuya": {
-    "ratio": 1,
+  "scoop-vainilla": {
+    "ratio": 1.8152,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-dulce-de-leche": {
-    "ratio": 1,
+  "scoop-mojito": {
+    "ratio": 1.6336,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-ferrero": {
-    "ratio": 1,
+  "scoop-chocolate": {
+    "ratio": 1.8852,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-fresa": {
-    "ratio": 1,
+  "cono": {
+    "ratio": 0.4774,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-mango": {
-    "ratio": 1,
+  "waffle": {
+    "ratio": 1.3214,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   },
-  "sabor-vainilla": {
-    "ratio": 1,
+  "tarrina": {
+    "ratio": 1.323,
     "widths": [
-      160,
-      320
+      240,
+      480
     ]
   }
 }

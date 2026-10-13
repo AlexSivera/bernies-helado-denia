@@ -5,7 +5,7 @@ Ficha de Awwwards → web original. Se extraen principios, no layouts.
 
 | # | Proyecto (Awwwards) | Web visitada | Qué funciona | Principio que tomamos |
 |---|---|---|---|---|
-| 1 | Gelato La Boca — Site of the Day | gelatolaboca.com | El sabor nuevo se anuncia como un cartel: script + display gigante; texturas de helado recortadas como piezas gráficas; en móvil mantiene la contundencia | **La textura real del helado es material gráfico.** Usamos recortes de la vitrina de Bernie's, no ilustraciones |
+| 1 | Gelato La Boca — Site of the Day | gelatolaboca.com | El sabor nuevo se anuncia como un cartel: script + display gigante; texturas de helado recortadas como piezas gráficas; en móvil mantiene la contundencia | **La textura real del helado es material gráfico.** v1 usaba recortes de su vitrina (demasiado borrosos); ahora bolas fotográficas recortadas |
 | 2 | Gut Heladería — Nominee | gutheladeria.com | Un producto por pantalla, palabra enorme detrás, navegación de 3 ítems | Producto aislado + tipografía grande detrás; navegación mínima |
 | 3 | Still — Honorable Mention | drinkstill.nz | Producto dentro de la «O» del logotipo; fórmulas numeradas 01/02/03 con ficha | Catálogo numerado y fichado para los sabores |
 | 4 | Zoi Ice Tea — Honorable Mention | drinkzoi.co | Intro de tres palabras («Freeze. Shake. Drink.»), ritmo frío | Copy rítmico y corto en titulares |

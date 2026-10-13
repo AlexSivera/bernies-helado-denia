@@ -36,3 +36,7 @@ Corregido durante QA: variable `top` que chocaba con `window.top` (rompía todo 
 - Capturas a 320×640, 390×844, 768×1024, 1440×900 y 1920×1080: sin overflow horizontal, sin errores de consola; la torre cabe en la primera pantalla en todos los tamaños (tamaño de bola ligado a `svh`).
 - En móvil solo se muestran 3 banderitas para no tapar el vinilo; pegatina de reseñas reducida por debajo de 360 px.
 - Primera carga ≈ 352 KB (la foto de la puerta pesa más que el cucurucho de stock, pero es real).
+
+## Ronda 3 — bolas y recipientes fotográficos (13/10/2026)
+- Las texturas v1 (recortes de fotos de móvil de la vitrina) se veían borrosas y no se leían como bolas. Sustituidas por bolas de una misma sesión de estudio (Pexels) recortadas con fondo transparente; cucurucho fotográfico, bubble waffle real de Bernie's y tarrina amarilla limpia.
+- Comprobado en 390×844 y 1440×900: torre del hero, rejilla (2 columnas en móvil, 4 en escritorio) y selector en cucurucho / tarrina / bubble waffle con bolas de proporciones distintas (yogur alto, fresa plana). Sin errores de consola ni overflow.

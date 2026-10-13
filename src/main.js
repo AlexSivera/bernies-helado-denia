@@ -78,15 +78,17 @@ $$('[data-filter]').forEach((chip) => chip.addEventListener('click', () => {
 }));
 
 // ——— La vitrina: combinación ———
+// w: ancho de la bola (unidades del viewBox 300×380) · base: dónde apoya la primera bola
 const FORMATS = {
-  cucurucho: { label: 'Cucurucho', y: [186, 98] },
-  tarrina: { label: 'Tarrina', y: [190, 104] },
-  waffle: { label: 'Bubble waffle', y: [176, 102] },
+  cucurucho: { label: 'Cucurucho', w: 150, base: 166 },
+  tarrina: { label: 'Tarrina', w: 170, base: 262 },
+  waffle: { label: 'Bubble waffle', w: 160, base: 268 },
 };
 const FLAVORS = Object.fromEntries(flavorBtns.map((b) => [b.dataset.id, {
   name: $('.flavor__name', b).textContent.replace(/\s+/g, ' ').trim(),
-  img: `assets/img/sabor-${b.dataset.id}-320.webp`,
-  thumb: `assets/img/sabor-${b.dataset.id}-160.webp`,
+  img: `assets/img/scoop-${b.dataset.id}-480.webp`,
+  thumb: `assets/img/scoop-${b.dataset.id}-240.webp`,
+  ar: +b.dataset.ar,
 }]));
 const state = { format: 'cucurucho', picks: [] };
 
@@ -109,11 +111,16 @@ function drop(g) {
 function render(changed) {
   const fmt = FORMATS[state.format];
   $$('.vessel', stage).forEach((v) => v.toggleAttribute('hidden', v.dataset.vessel !== state.format));
+  let apoyo = fmt.base;                                   // la bola de arriba se hunde un 38 % en la de abajo
   scoops.forEach((g, i) => {
-    g.setAttribute('transform', `translate(150 ${fmt.y[i]})`);
     const id = state.picks[i];
     if (!id) { g.classList.remove('is-on'); return; }
-    $('image', g).setAttribute('href', FLAVORS[id].img);
+    const w = fmt.w * (i ? 0.94 : 1), h = w / FLAVORS[id].ar, y = apoyo - h;
+    const img = $('image', g);
+    img.setAttribute('href', FLAVORS[id].img);
+    img.setAttribute('x', 150 - w / 2); img.setAttribute('y', y);
+    img.setAttribute('width', w); img.setAttribute('height', h);
+    apoyo = y + h * 0.38;
     if (changed === id || changed === 'format') drop(g); else g.classList.add('is-on');
   });
   stage.classList.toggle('has-scoops', state.picks.length > 0);
