@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alexsivera.github.io/bernies-helado-denia/sitemap.xml
