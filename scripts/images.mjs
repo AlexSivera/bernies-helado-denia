@@ -11,11 +11,11 @@ const OUT = 'src/assets/img';
 // grade: sun (stock, sol cálido) · real (fotos de móvil del local, unificadas) · swatch (texturas de vitrina)
 const FOTOS = {
   // — Stock provisional (Unsplash) —
-  'hero-cono':      { src: 'stock/TLD6iCOlyb0.jpg', ratio: 4 / 5.2, foco: [0.52, 0.42], grade: 'sun', sizes: [480, 760, 1100, 1500] },
   'paseo-mar':      { src: 'stock/LLrohGLmfAg.jpg', ratio: 16 / 9, foco: [0.45, 0.5], grade: 'sun', sizes: [800, 1400, 2000] },
   'og':             { src: 'stock/3D0HUHFcRrk.jpg', ratio: 1200 / 630, foco: [0.5, 0.45], grade: 'sun', sizes: [1200], jpg: true },
 
   // — Fotos reales de Bernie's (Google Maps) —
+  'puerta':         { src: 'real/maps-07.jpg', ratio: 3 / 4, foco: [0.6, 0.5], grade: 'real', sizes: [480, 800, 1100] },
   'fachada':        { src: 'real/maps-06.jpg', ratio: 4 / 5, foco: [0.62, 0.45], grade: 'real', sizes: [480, 800, 1200] },
   'interior':       { src: 'real/maps-07.jpg', ratio: 4 / 3, foco: [0.55, 0.5], grade: 'real', sizes: [600, 1000, 1600] },
   'gofre-mano':     { src: 'real/maps-09.jpg', ratio: 4 / 5, foco: [0.5, 0.45], grade: 'real', sizes: [480, 800, 1200] },

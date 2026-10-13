@@ -70,35 +70,54 @@
   </div>
 
   <main>
-    <!-- ───────── HERO ───────── -->
+    <!-- ───────── HERO: la fachada de Marqués de Campo 51 ───────── -->
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <div class="hero__media">
-        <figure class="arch hero__arch">
-          <img data-img="hero-cono" sizes="(min-width: 960px) 40vw, 86vw" alt="Cucurucho con dos bolas de helado rosa y nata sujeto en alto sobre fondo amarillo" fetchpriority="high" loading="eager">
-        </figure>
-        <p class="seal" aria-label="Valoración en Google: 4,5 sobre 5 con 246 reseñas">
-          <span class="seal__n">4,5</span>
-          <span class="seal__t">★ en Google<br>246 reseñas</span>
-        </p>
-      </div>
-      <div class="hero__copy">
-        <p class="eyebrow">Heladería artesana · Dénia</p>
-        <h1 class="hero__title" id="hero-title">
-          <span class="line">Helado</span>
-          <span class="line">artesano,</span>
-          <span class="line">hecho <em>aquí.</em></span>
-        </h1>
-        <p class="hero__lead">En Marqués de Campo, 51. Elaboración propia, sabores que cambian con la temporada y un bubble waffle del que no paran de hablar las reseñas.</p>
-        <div class="hero__ctas">
-          <a class="btn btn--ink" href="#vitrina">Ver la vitrina</a>
-          <a class="btn btn--line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bernie%27s%20helado%20artesano%2C%20C%2F%20del%20Marqu%C3%A9s%20de%20Campo%2051%2C%20D%C3%A9nia" target="_blank" rel="noopener">Cómo llegar</a>
+      <p class="fascia"><span>Heladería artesanal</span><span class="fascia__sep" aria-hidden="true"></span><span>Elaboración propia</span></p>
+
+      <h1 class="sign" id="hero-title">
+        <span class="sign__name">Bernie's</span>
+        <span class="sr">Helado artesano en Marqués de Campo 51, Dénia</span>
+      </h1>
+
+      <div class="front">
+        <div class="window">
+          <p class="window__lead">Elaboración propia, sabores que cambian con la temporada y un bubble waffle del que no paran de hablar las reseñas.</p>
+          <ul class="window__list" aria-label="En Bernie's encontrarás">
+            <li>Helados</li><li>Bubble waffles</li><li>Batidos</li><li>Granizados</li><li>Horchata</li><li>Cafés</li>
+          </ul>
         </div>
-      </div>
-      <div class="ticker" aria-hidden="true">
-        <div class="ticker__track">
-          <span>Pistacho</span><span>Leche merengada</span><span>Happy Hippo</span><span>Cheesecake de arándanos y Lotus</span><span>Coco y maracuyá</span><span>Dulce de leche</span><span>Dubai</span><span>Mango</span><span>Frutos rojos</span><span>Mojito</span><span>Unicornio</span><span>Yogur con amarena</span><span>Vainilla Taití</span><span>Chocolate negro</span>
-          <span>Pistacho</span><span>Leche merengada</span><span>Happy Hippo</span><span>Cheesecake de arándanos y Lotus</span><span>Coco y maracuyá</span><span>Dulce de leche</span><span>Dubai</span><span>Mango</span><span>Frutos rojos</span><span>Mojito</span><span>Unicornio</span><span>Yogur con amarena</span><span>Vainilla Taití</span><span>Chocolate negro</span>
+
+        <div class="door">
+          <img data-img="puerta" sizes="(min-width: 960px) 34vw, 66vw" alt="Interior de Bernie's visto desde la puerta: la vitrina de helados y el neón amarillo al fondo" fetchpriority="high" loading="eager">
+          <p class="door__vinyl">Helado artesano,<br><em>hecho aquí.</em></p>
+          <a class="door__link" href="#vitrina">Ver la vitrina <span aria-hidden="true">↓</span></a>
+          <p class="sticker" aria-label="Valoración en Google: 4,5 sobre 5 con 246 reseñas"><b>4,5★</b><span>Google</span><span>246 reseñas</span></p>
         </div>
+
+        <a class="pillar" href="#vitrina" aria-label="Ver los sabores de la vitrina">
+          <span class="tower" aria-hidden="true">
+            <span class="tw" style="--x:-4px;--r:-3deg;--i:0"><img src="assets/img/sabor-dulce-de-leche-320.webp" alt="" width="320" height="320"><span class="tw__tag">Dulce de leche</span></span>
+            <span class="tw" style="--x:6px;--r:4deg;--i:1"><img src="assets/img/sabor-pistacho-320.webp" alt="" width="320" height="320"><span class="tw__tag">Pistacho</span></span>
+            <span class="tw" style="--x:-7px;--r:-5deg;--i:2"><img src="assets/img/sabor-fresa-320.webp" alt="" width="320" height="320"><span class="tw__tag">Fresa</span></span>
+            <span class="tw tw--wide" style="--x:5px;--r:3deg;--i:3"><img src="assets/img/sabor-mango-320.webp" alt="" width="320" height="320"><span class="tw__tag">Mango</span></span>
+            <span class="tw" style="--x:4px;--r:2deg;--i:4"><img src="assets/img/sabor-ferrero-320.webp" alt="" width="320" height="320"><span class="tw__tag">Ferrero</span></span>
+            <span class="tw" style="--x:-3px;--r:-2deg;--i:5"><img src="assets/img/sabor-cheesecake-320.webp" alt="" width="320" height="320"><span class="tw__tag">Cheesecake</span></span>
+          </span>
+          <svg class="cone" viewBox="0 0 120 170" aria-hidden="true">
+            <defs>
+              <pattern id="cone-grid" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                <rect width="14" height="14" fill="#DDA052"/><path d="M0 0H14M0 0V14" stroke="#B5712B" stroke-width="3"/>
+              </pattern>
+            </defs>
+            <path d="M6 10 L60 166 L114 10 Z" fill="url(#cone-grid)" stroke="#221A14" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M2 4 Q60 22 118 4 L114 18 Q60 36 6 18 Z" fill="#C47E36" stroke="#221A14" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="street">
+        <p class="street__addr">C/ Marqués de Campo,&nbsp;51 <span>Dénia</span></p>
+        <a class="street__cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bernie%27s%20helado%20artesano%2C%20C%2F%20del%20Marqu%C3%A9s%20de%20Campo%2051%2C%20D%C3%A9nia" target="_blank" rel="noopener">Cómo llegar <span aria-hidden="true">→</span></a>
       </div>
     </section>
 
@@ -237,7 +256,7 @@
       </div>
 
       <div class="gofre__photos">
-        <figure class="arch gofre__big">
+        <figure class="gofre__big">
           <img data-img="gofre-mano" sizes="(min-width: 960px) 34vw, 78vw" alt="Bubble waffle de Bernie's con una bola de helado, sujeto en la mano">
         </figure>
         <figure class="gofre__small">
@@ -365,7 +384,7 @@
       </div>
 
       <div class="visita__grid">
-        <figure class="arch visita__photo">
+        <figure class="visita__photo">
           <img data-img="fachada" sizes="(min-width: 960px) 32vw, 80vw" alt="Fachada amarilla de Bernie's con el rótulo Heladería Artesanal y un cucurucho gigante pintado en la columna">
         </figure>
         <dl class="facts">

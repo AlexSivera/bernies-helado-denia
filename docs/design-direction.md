@@ -7,16 +7,16 @@
 ## Sistema
 - **Paleta**: amarillo Bernie's `#FFC61A` (fachada) · nata `#FFF6E2` · chocolate-tinta `#221A14` · pizarra `#283034` (pared del neón) · barquillo `#C8893A` (detalles). El resto de color lo ponen los sabores.
 - **Tipografía**:
-  - *Fraunces* variable (ejes SOFT y WONK al máximo en titulares): una serif blanda, «cremosa», con letras que parecen hechas de helado. En el hero su peso «crece» al cargar, como una bola que se sirve.
+  - *Fraunces* variable (ejes SOFT y WONK al máximo en titulares): una serif blanda, «cremosa», con letras que parecen hechas de helado.
   - *Figtree* para texto e interfaz: amable, legible en móvil.
   - *Yesteryear* solo para el wordmark/neón, evocando el script del rótulo (provisional hasta tener el logotipo vectorial).
 - **Fotografía**: luz de sol directa, color cálido, fondo liso amarillo/ocre o mar; manos sosteniendo el helado (es un producto que se come paseando). Real del local para todo lo específico (vitrina, gofre, fachada, interior). Stock solo para ambiente.
-- **Formas**: máscara de «arco de bola» (rectángulo con remate semicircular) para fotos, círculos para sabores. Nada de cards redondeadas genéricas ni sombras grandes.
+- **Formas**: nada de arcos (patrón repetido en demos anteriores). Fotos como piezas físicas: marco de puerta, fotos clavadas giradas, marco con sombra dura. Bolas con el borde ondulado de la cuchara. Nada de cards redondeadas genéricas ni sombras grandes.
 - **Botones**: píldora plana, borde 2px tinta, sombra dura desplazada (como pegatina de vaso), sin degradados.
-- **Movimiento**: crecimiento del peso tipográfico en el hero, marquee de sabores, bolas que caen al cucurucho en el selector, parpadeo del neón al entrar en escena. Todo desactivado con `prefers-reduced-motion`.
+- **Movimiento**: el rótulo se enciende y las bolas caen una a una sobre el cucurucho del pilar, bolas que caen al cucurucho en el selector, parpadeo del neón al entrar en escena. Todo desactivado con `prefers-reduced-motion`.
 
 ## Arquitectura
-1. **Hero (amarillo)** — «Helado artesano, hecho aquí.» + foto en arco + sello de reseñas + CTA Ver la vitrina / Cómo llegar. Marquee de sabores reales.
+1. **Hero: la fachada** — composición centrada que reproduce el frente real del local: rótulo «Heladería artesanal · Elaboración propia» (h1), letras «Bernie's» retroiluminadas, puerta con la foto real del interior y el mensaje en vinilo, pegatina de reseñas en el cristal, pilar con el cucurucho gigante (en la fachada está pintado; aquí se monta con texturas reales de la vitrina y banderitas de pizarra) y la acera con dirección + «Cómo llegar». En escritorio, escaparate oscuro con la lista de productos en vinilo.
 2. **La vitrina (nata)** — 10 texturas reales recortadas de las fotos de la vitrina; filtros (cremosos / frutales / sin gluten); selector «Tu combinación» que monta las bolas sobre tarrina amarilla, cucurucho o bubble waffle y se comparte por WhatsApp. Honesto: no es un pedido.
 3. **Bubble waffle (amarillo/tinta)** — el producto más comentado («gofres» en 47 reseñas). Fotos reales + toppings y salsas de la pizarra.
 4. **Pizarra (nata)** — batidos, summer shakes, granizados, horchata, affogato, cafés. Sin precios.
@@ -25,3 +25,6 @@
 7. **Pie** — wordmark gigante.
 
 Acción principal: **Cómo llegar** (siempre visible: cabecera en escritorio, píldora flotante en móvil).
+
+## Por qué no «texto a la izquierda + foto a la derecha»
+Las demos de Boreal, La Sacristía y Niki usan ese esqueleto (y Boreal el arco). Para Bernie's el hero sale del propio negocio: su fachada es el punto de referencia en Marqués de Campo («busca el cucurucho gigante»), así que la primera pantalla es esa fachada. Pasa el test de identidad: sin logotipo, sigue siendo esta heladería.

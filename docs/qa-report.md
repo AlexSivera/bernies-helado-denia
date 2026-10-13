@@ -30,3 +30,9 @@ Corregido durante QA: variable `top` que chocaba con `window.top` (rompía todo 
 - Dispositivos físicos iOS/Android (solo emulación de Chromium).
 - Safari: `clip-path: url(#…)` en HTML y transiciones de `font-weight` variables deberían funcionar, pero no se ha probado en WebKit.
 - Lighthouse no ejecutado.
+
+## Ronda 2 — nuevo hero «la fachada» (13/10/2026)
+- Motivo: el hero v1 repetía el esqueleto de otras demos (texto a la izquierda, foto en arco a la derecha). Sustituido por la fachada; eliminados también los arcos de gofre y visita.
+- Capturas a 320×640, 390×844, 768×1024, 1440×900 y 1920×1080: sin overflow horizontal, sin errores de consola; la torre cabe en la primera pantalla en todos los tamaños (tamaño de bola ligado a `svh`).
+- En móvil solo se muestran 3 banderitas para no tapar el vinilo; pegatina de reseñas reducida por debajo de 360 px.
+- Primera carga ≈ 352 KB (la foto de la puerta pesa más que el cucurucho de stock, pero es real).

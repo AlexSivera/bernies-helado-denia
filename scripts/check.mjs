@@ -34,7 +34,7 @@ try { JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/s
 
 // Peso aproximado inicial: HTML + CSS + JS + fuentes precargadas + imagen del hero (800w)
 let kb = 0;
-for (const f of ['index.html', 'styles.css', 'main.js', 'assets/fonts/fraunces.woff2', 'assets/fonts/figtree.woff2', 'assets/fonts/yesteryear.woff2', 'assets/img/hero-cono-760.webp']) {
+for (const f of ['index.html', 'styles.css', 'main.js', 'assets/fonts/fraunces.woff2', 'assets/fonts/figtree.woff2', 'assets/fonts/yesteryear.woff2', 'assets/img/puerta-800.webp']) {
   kb += (await fs.stat(path.join(OUT, f))).size / 1024;
 }
 console.log(`Recursos locales: ${locales.size} · anclas: ${ids.size} · primera carga ≈ ${Math.round(kb)} KB`);
